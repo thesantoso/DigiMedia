@@ -1,0 +1,73 @@
+<wpml-config>
+    <custom-types>
+        <custom-type translate="1" display-as-translated="1">rb-gallery</custom-type>
+        <custom-type translate="1" display-as-translated="1">rb-portfolio</custom-type>
+        <custom-type translate="1" display-as-translated="1">rb-deal</custom-type>
+    </custom-types>
+    <taxonomies>
+        <taxonomy translate="1" display-as-translated="1">gallery-category</taxonomy>
+        <taxonomy translate="1" display-as-translated="1">portfolio-category</taxonomy>
+        <taxonomy translate="1" display-as-translated="1">deal-category</taxonomy>
+    </taxonomies>
+    <admin-texts>
+        <key name="pixwell_theme_options">
+            <key name="topbar_text"/>
+            <key name="topbar_phone"/>
+            <key name="topbar_email"/>
+            <key name="footer_copyright"/>
+            <key name="newsletter_popup_title"/>
+            <key name="newsletter_popup_description"/>
+            <key name="newsletter_popup_privacy"/>
+            <key name="newsletter_popup_submit"/>
+            <key name="newsletter_placeholder"/>
+            <key name="newsletter_privacy_error"/>
+            <key name="newsletter_email_error"/>
+            <key name="newsletter_email_exists"/>
+            <key name="newsletter_success"/>
+            <key name="site_description"/>
+            <key name="site_phone"/>
+            <key name="site_email"/>
+            <key name="site_locality"/>
+            <key name="site_street"/>
+            <key name="postal_code"/>
+            <key name="cookie_popup_content"/>
+            <key name="cookie_popup_button"/>
+            <key name="meta_author_text"/>
+            <key name="readmore_text"/>
+            <key name="meta_shop_post_text"/>
+            <key name="sponsor_label"/>
+            <key name="single_post_left_article_header"/>
+            <key name="single_post_related_title"/>
+            <key name="single_post_reaction_title"/>
+            <key name="slider_next"/>
+            <key name="slider_prev"/>
+            <key name="table_contents_heading"/>
+        </key>
+    </admin-texts>
+    <custom-fields>
+        <custom-field action="copy-once">pixwell_total_word</custom-field>
+        <custom-field action="copy">_pixwell_mega_cat</custom-field>
+        <custom-field action="copy">_pixwell_mega_cat_ajax</custom-field>
+        <custom-field action="copy">_pixwell_mega_col</custom-field>
+        <custom-field action="copy">_pixwell_mega_col_bg</custom-field>
+        <custom-field action="copy-once">_pixwell_sub_image</custom-field>
+        <custom-field action="copy-once">rb_global_meta</custom-field>
+        <custom-field action="copy-once">ruby_composer_data</custom-field>
+        <custom-field action="copy">rbc_dynamic_style</custom-field>
+        <custom-field action="copy">pixwell_review_stars</custom-field>
+        <custom-field action="copy">pixwell_user_rating</custom-field>
+        <custom-field action="copy">rb_deal_start</custom-field>
+        <custom-field action="copy">rb_deal_end</custom-field>
+    </custom-fields>
+    <shortcodes>
+        <shortcode>
+            <tag>rb_related</tag>
+            <attributes>
+                <attribute>title</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag encoding="base64">rb_fw_raw_html</tag>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

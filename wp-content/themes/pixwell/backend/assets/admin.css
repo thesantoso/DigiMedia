@@ -1,0 +1,160 @@
+.w-img-preview {
+    display: block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.w-img-preview img {
+    display: block;
+    width: 100%;
+}
+
+input.w-upload-img {
+    display: inline-block;
+    width: 74%;
+    min-height: 40px;
+    border: 1px dashed #dddddd !important;
+    box-shadow: none !important;
+}
+
+input.w-clear-img {
+    display: inline-block;
+    width: 25%;
+    min-height: 40px;
+    border: 1px dashed #dddddd !important;
+    box-shadow: none !important;
+}
+
+input.w-clear-img:after {
+    display: table;
+    clear: both;
+    width: 100%;
+    content: '';
+}
+
+/** taxonomy */
+.rb-taxonomy-box, .rb-taxonomy-box * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.rb-taxonomy-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+table.rb-taxonomy th {
+    font-size: 13px;
+    padding: 20px;
+}
+
+table.rb-taxonomy td {
+    padding: 20px;
+}
+
+.rwtm-images img {
+    max-width: 100px;
+    max-height: 70px
+}
+
+table.rb-taxonomy .description {
+    font-size: 12px;
+    display: block;
+    margin-top: 7px;
+}
+
+table.rb-taxonomy .media-description {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+table.rb-taxonomy tr {
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.rb-taxonomy-header {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 15px 20px;
+    color: #ffffff !important;
+    background: #363a42;
+}
+
+.rwtm-uploaded img {
+    object-fit: cover;
+    -webkit-object-fit: cover;
+}
+
+[id$="widget-fw-instagram-__i__"] .widget-top .widget-title h3 {
+    color: #ffffff;
+    background-color: #363a42;
+}
+
+[id$="facebook-__i__"] .widget-top .widget-title h3,
+[id$="flickr-__i__"] .widget-top .widget-title h3,
+[id$="instagram-__i__"] .widget-top .widget-title h3,
+[id$="post-__i__"] .widget-top .widget-title h3,
+[id$="social_icon-__i__"] .widget-top .widget-title h3,
+[id$="tweets-__i__"] .widget-top .widget-title h3,
+[id$="youtube_subscribe-__i__"] .widget-top .widget-title h3,
+[id$="advertising-__i__"] .widget-top .widget-title h3,
+[id$="follower-__i__"] .widget-top .widget-title h3,
+[id$="subscribe_box-__i__"] .widget-top .widget-title h3,
+[id$="banner-__i__"] .widget-top .widget-title h3,
+[id$="address-__i__"] .widget-top .widget-title h3,
+[id$="mc4wp_form_widget-__i__"] .widget-top .widget-title h3 {
+    color: #ffffff;
+    background-color: #363a42;
+}
+
+[id$="headerstrip-__i__"] .widget-top .widget-title h3 {
+    color: #ffffff;
+    background-color: #6f6e56;
+}
+
+[id$="fw_instagram-__i__"] .widget-top .widget-title h3,
+[id$="rbmc-__i__"] .widget-top .widget-title h3 {
+    color: #ffffff;
+    background-color: #647596 !important;
+}
+
+[id$="_pixwell_navbar_widget_button-__i__"] .widget-top .widget-title h3 {
+    color: #ffffff;
+    background-color: #bda96f;
+}
+
+.menu-item-settings:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.field-ruby-mega.description-wide input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.field-ruby-mega-info {
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+    margin: 20px 20px 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff7d3;
+}
+
+.rtl .field-ruby-mega-info {
+    margin: 20px 0 10px 20px;
+
+}
